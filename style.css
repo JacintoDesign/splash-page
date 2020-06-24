@@ -15,7 +15,7 @@ body {
 .wrapper {
   position: relative;
   width: 1440px;
-  min-height: 147vh; /* Might have to set this height in JS */ 
+  min-height: 182vh;
   margin: auto;
 }
 
@@ -135,4 +135,11 @@ body {
   left: 737px;
   right: 479px;
   top: 1157px;
+}
+
+/* Media Query: 1080P Monitor */
+@media screen and (min-width: 1800px) {
+  .wrapper {
+    min-height: 147vh;
+  }
 }
