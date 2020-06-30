@@ -145,7 +145,7 @@ body {
   display: flex;
 }
 
-.background-toggles > * {
+.background-toggles > div {
   height: 25px;
   width: 25px;
   border-radius: 5px;
@@ -155,22 +155,19 @@ body {
 }
 
 /* Background Colors */
-.background-1,
-.bg-btn-1 {
+.background-1 {
   background-color: #f2f2f2;
   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23cacaca' fill-opacity='0.3' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.background-2,
-.bg-btn-2 {
+.background-2 {
   /* Zinc */
   background: #ADA996;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
-.background-3,
-.bg-btn-3 {
+.background-3 {
   /* Portrait */
   background: #8e9eab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
@@ -180,6 +177,6 @@ body {
 /* Media Query: 1080P Monitor */
 @media screen and (min-width: 1800px) {
   .wrapper {
-    min-height: 147vh;
+    min-height: 142vh;
   }
 }
